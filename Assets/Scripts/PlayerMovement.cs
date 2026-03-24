@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
             // Handle collision with obstacle (e.g., end game, reduce health, etc.)
             Debug.Log("Malzeme Toplandı!");
 
-            Destroy(other.gameObject); // Destroy the collected item
+   
         }
     }
 }
